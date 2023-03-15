@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Laboratorio\\Documents\\arquitetura_software\\BSIStore.csproj": {}
+    "C:\\Users\\Laboratorio\\Downloads\\arquitetura_software-master\\BSIStore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Laboratorio\\Documents\\arquitetura_software\\BSIStore.csproj": {
+    "C:\\Users\\Laboratorio\\Downloads\\arquitetura_software-master\\BSIStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Laboratorio\\Documents\\arquitetura_software\\BSIStore.csproj",
+        "projectUniqueName": "C:\\Users\\Laboratorio\\Downloads\\arquitetura_software-master\\BSIStore.csproj",
         "projectName": "BSIStore",
-        "projectPath": "C:\\Users\\Laboratorio\\Documents\\arquitetura_software\\BSIStore.csproj",
+        "projectPath": "C:\\Users\\Laboratorio\\Downloads\\arquitetura_software-master\\BSIStore.csproj",
         "packagesPath": "C:\\Users\\Laboratorio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Laboratorio\\Documents\\arquitetura_software\\obj\\",
+        "outputPath": "C:\\Users\\Laboratorio\\Downloads\\arquitetura_software-master\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
